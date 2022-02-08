@@ -1,4 +1,4 @@
-package org.wso2.carbon.global.log.handler;
+package com.custom.global.log.handler;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
