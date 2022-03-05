@@ -17,7 +17,7 @@ This synapse log handler can be used to log the inflowLatency, backendLatency, o
 7. You will be able to see captured latencies in the wso2carbon.log file as below.
 
    ```properties
-   apiName | apiMethod |  apiFullRequestPath | backend | apiResponseSC | inflowLatency | backendLatency | outflowLatency | roundTripLatency
+   apiName | apiMethod |  apiFullRequestPath | backend URL | apiResponse Status code | inflowLatency | backendLatency | outflowLatency | roundTripLatency
    INFO - GlobalLogHandler |admin--testing:vv1|GET|/test/v1|https://localhost:7000|200|348|144|23|515
    ```
 
